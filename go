@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ ! -d ~/.vim/ ]; then
-    echo "cloning https://github.com/aaronzirbes/vim-files.git to ~/.vim"
-    git clone https://github.com/aaronzirbes/vim-files.git ~/.vim --branch sane-defaults --single-branch
+    echo "cloning https://github.com/theokanning/vim-files.git to ~/.vim"
+    git clone https://github.com/theokanning/vim-files.git ~/.vim
 else
     echo "~/.vim/ already exists. skipping."
 fi
@@ -40,7 +40,7 @@ sed -i -e 's/colorscheme Tomorrow-Night/"colorscheme Tomorrow-Night/' ~/.vimrc
 echo "calling BundleInstall using vundle plugin"
 vim +BundleInstall +qall
 
-echo "Re-Enabling Tomorrow-Night theme until the bundle is installed"
+echo "Re-Enabling Tomorrow-Night theme now that bundle is installed"
 sed -i -e 's/"colorscheme Tomorrow-Night/colorscheme Tomorrow-Night/' ~/.vimrc
 
 echo "Done!"

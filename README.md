@@ -1,7 +1,7 @@
-Aaron Zirbes' VIM files
+Theo Kanning's VIM files
 =========================
 
 To use, run the following:
 
-    bash -c "$(curl -fsSkL raw.github.com/aaronzirbes/vim-files/sane-defaults/go)"
+    bash -c "$(curl -fsSkL raw.github.com/theokanning/vim-files/master/go)"
 
