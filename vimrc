@@ -38,13 +38,13 @@ Bundle 'vim-scripts/taglist.vim'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
 " Java Imports
 "Bundle 'sjurgemeyer/vimport'
 
 "" Auto window resizing
 "Bundle 'vim-scripts/ZoomWin'
 "Bundle 'zhaocai/GoldenView.Vim'
-"
 "Bundle 'Shougo/neocomplcache.git'
 "Bundle 'Shougo/neosnippet.git'
 "Bundle 'Shougo/neosnippet-snippets'
