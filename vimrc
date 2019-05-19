@@ -31,8 +31,9 @@ Bundle 'scrooloose/nerdtree'
 " Bundle 'elzr/vim-json'
 " Plugin 'editorconfig/editorconfig-vim'
 
-" Todo Update to new Base16 theme
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+" Color scheme
+Bundle 'chriskempson/base16-vim'
+colorscheme base16-default-dark
 
 " Java Imports
 "Bundle 'sjurgemeyer/vimport'
@@ -127,8 +128,6 @@ set tabstop=4
 set shiftwidth=4
 set laststatus=2
 set background=dark
-
-colorscheme Tomorrow-Night
 
 " Vertical Column Limiter
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929

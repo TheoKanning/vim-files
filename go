@@ -34,14 +34,14 @@ else
     echo "    ln -s ~/.vim/ctags ~/.ctags"
     echo "    ln -s ~/.vim/gvimrc ~/.gvimrc"
 fi
-echo "Disabling Tomorrow-Night theme until the bundle is installed"
-sed -i -e 's/colorscheme Tomorrow-Night/"colorscheme Tomorrow-Night/' ~/.vimrc
+echo "Disabling base16-default-dark theme until the bundle is installed"
+sed -i -e 's/colorscheme base16-default-dark/"colorscheme base16-default-dark/' ~/.vimrc
 
 echo "calling BundleInstall using vundle plugin"
 vim +BundleInstall +qall
 
-echo "Re-Enabling Tomorrow-Night theme now that bundle is installed"
-sed -i -e 's/"colorscheme Tomorrow-Night/colorscheme Tomorrow-Night/' ~/.vimrc
+echo "Re-Enabling base16-default-dark theme now that bundle is installed"
+sed -i -e 's/"colorscheme base16-default-dark/colorscheme base16-default-dark/' ~/.vimrc
 
 echo "Done!"
 
