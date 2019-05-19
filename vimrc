@@ -6,8 +6,6 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-let g:goldenview__enable_default_mapping = 0
-
 " let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
@@ -32,8 +30,8 @@ Bundle 'scrooloose/nerdtree'
 " Plugin 'editorconfig/editorconfig-vim'
 
 " Color scheme
-Bundle 'chriskempson/base16-vim'
-colorscheme base16-default-dark
+Plugin 'chriskempson/base16-vim'
+" colorscheme base16-default-dark
 
 " Java Imports
 "Bundle 'sjurgemeyer/vimport'
@@ -127,7 +125,6 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set laststatus=2
-set background=dark
 
 " Vertical Column Limiter
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
