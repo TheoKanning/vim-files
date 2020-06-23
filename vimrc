@@ -140,3 +140,5 @@ noremap <Leader>nf :<C-U>NERDTreeFind<CR>
 " Really not a big fan of trailing whitespace, mark it red
 set list listchars=tab:>-,trail:·,precedes:<,extends:>
 
+" Highlight launch files as xml                                                                                          
+au BufNewFile,BufRead *.launch set filetype=xml   
